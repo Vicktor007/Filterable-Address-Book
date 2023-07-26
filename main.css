@@ -214,6 +214,26 @@ button{
     -webkit-box-shadow: 0 1px 0 0 #bd5305;
             box-shadow: 0 1px 0 0 #bd5305;;
 }
+
+.search-form {
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-form input {
+    background-color: var(--light-grey-color);
+    width: 80%;
+    height: 100%;
+}
+
+.search-form i {
+    font-size: 35px;
+    color: grey;
+}
+
 .addr-book-list{
     margin: 1rem 0;
     min-height: 450px;
@@ -275,21 +295,4 @@ button{
 /* for error message */
 .errorMsg{
     border: 1px solid #d33c41!important;
-}
-
-.wed {
-    width: 30%;
-    height: 50px;
-    display: flex;
-}
-
-.wed input {
-    background-color: var(--light-grey-color);
-    width: 80%;
-    height: 100%;
-}
-
-.wed i {
-    font-size: 40px;
-    color: grey;
 }
